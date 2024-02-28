@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prefix and Postfix Expression Evaluator</title>
+	<link rel="stylesheet" href="stylenew.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Prefix and Postfix Expression Evaluator</h1>
+		<div>
+			<label for="expression">Enter Expression:</label>
+			<input type="text" id="expression">
+		</div>
+		<div>
+			<label for="type">Select Expression Type:</label>
+			<select id="type">
+				<option value="prefix">Prefix</option>
+				<option value="postfix">Postfix</option>
+			</select>
+		</div>
+		<button onclick="evaluateExpression()">Evaluate Expression</button>
+		<div id="result"></div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
